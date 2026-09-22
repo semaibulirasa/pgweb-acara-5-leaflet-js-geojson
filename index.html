@@ -92,7 +92,7 @@
             onEachFeature: function (feature, layer) {
                 // variable popup content
                 var popup_content = "Fungsi: " + feature.properties.NAMA_UNSUR + "<br>" +
-                    "Panjang (m): " + feature.properties.panjang_m;
+                    "Panjang (Km): " + feature.properties.PANJANG_KM;
 
                 layer.on({
                     click: function (e) {
